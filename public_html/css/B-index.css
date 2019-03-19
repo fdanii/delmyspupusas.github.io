@@ -1,0 +1,147 @@
+ul img {
+    width: 240px;
+    height: auto;
+}
+body {
+   background-size: 100% 100%;
+}
+p {
+    font-size: 3em;
+    color: white;
+    margin-top: 19px;
+}
+header h4 {
+    font-size: 1.5em;
+    color: white;
+}
+body h1  {
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+}
+header {
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+.socialmediaicon {
+    width: 110px;
+    height: auto;
+    margin: 0 5px;
+}
+footer {
+    color: white;
+    text-align: center;
+}
+h1, h2 {
+    color: #DBDBDB;
+}
+section p {
+    text-align: right;
+    color: white;
+    font-size: 2em;
+}
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin:20px 0 0;
+    font-size: 2em;
+}
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+nav a.selected,nav a:hover {
+    color: white;
+}
+ul a {
+    color: #DBDBDB;
+}
+ div h3 {
+    font-size: 2.5em;
+    color: black;
+    font-weight: 800;
+}
+header {
+    text-align: center;
+}
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat; 
+    background-size: 25px 25px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}header h3 {
+    font-size: 2.75em;
+    color: white;
+    margin-top: -1px;
+}
+@media screen and (min-width: 480px){
+    #primary {
+        width: 40%;
+        float: left;
+    }
+    #secondary {
+        width: 30%;
+        float: right;
+    }    
+
+    #gallery li {
+        width: 28.333%;
+    }
+    #gallery li:nth-child(4n) {
+        clear: left;
+     }
+}
+/**** ABOUT PAGE****/
+@media screen and (min-width: 660px) {
+  
+      h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 0.825;
+        margin: 20px;    
+    }
+    header {
+        border-top: 5px solid white;
+        margin-bottom: 60px;
+    } 
+}
+footer {
+    font-size: .95em;
+}
+h4 {
+    font-size: 1.5em;
+    color: white;
+    margin-top: -49px;
+}
+h5 {
+    color: white;
+    font-size: 2.2em;
+    text-align: left;
+}
+h6 {
+    color: white;
+    font-size: 2em;
+    text-align: left;
+}
+.social_mediaicon {
+    width: 110px;
+    height: 115px;
+    margin: 0 5px;
+}
